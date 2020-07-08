@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19066" started-at="2020-07-07T14:38:59Z" finished-at="2020-07-07T14:39:19Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="13345" started-at="2020-07-07T14:38:59Z" finished-at="2020-07-07T14:39:13Z">
+      <class name="test.validateNavigation">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.validateNavigation@7c75222b]" name="intialize" is-config="true" duration-ms="10662" started-at="2020-07-07T20:08:59Z" finished-at="2020-07-07T20:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="validateNav()[pri:0, instance:test.validateNavigation@7c75222b]" name="validateNav" duration-ms="178" started-at="2020-07-07T20:09:10Z" finished-at="2020-07-07T20:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.validateNavigation@7c75222b]" name="teardown" is-config="true" duration-ms="2500" started-at="2020-07-07T20:09:10Z" finished-at="2020-07-07T20:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.validateNavigation -->
+    </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="13997" started-at="2020-07-07T14:38:59Z" finished-at="2020-07-07T14:39:13Z">
+      <class name="test.validateTitle">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.validateTitle@6ea6d14e]" name="intialize" is-config="true" duration-ms="12942" started-at="2020-07-07T20:08:59Z" finished-at="2020-07-07T20:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="FAIL" signature="validateTitlee()[pri:0, instance:test.validateTitle@6ea6d14e]" name="validateTitlee" duration-ms="68" started-at="2020-07-07T20:09:12Z" finished-at="2020-07-07T20:09:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at test.validateTitle.validateTitlee(validateTitle.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitlee -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.validateTitle@6ea6d14e]" name="teardown" is-config="true" duration-ms="228" started-at="2020-07-07T20:09:13Z" finished-at="2020-07-07T20:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.validateTitle -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="19066" started-at="2020-07-07T14:38:59Z" finished-at="2020-07-07T14:39:19Z">
+      <class name="test.HomePage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:test.HomePage@1b0375b3]" name="intialize" is-config="true" duration-ms="3719" started-at="2020-07-07T20:08:59Z" finished-at="2020-07-07T20:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:test.HomePage@1b0375b3]" name="basePageNavigation" duration-ms="13339" started-at="2020-07-07T20:09:03Z" data-provider="getData" finished-at="2020-07-07T20:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:test.HomePage@1b0375b3]" name="basePageNavigation" duration-ms="1880" started-at="2020-07-07T20:09:17Z" data-provider="getData" finished-at="2020-07-07T20:09:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.HomePage@1b0375b3]" name="teardown" is-config="true" duration-ms="113" started-at="2020-07-07T20:09:18Z" finished-at="2020-07-07T20:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.HomePage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
